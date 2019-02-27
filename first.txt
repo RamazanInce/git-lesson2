@@ -1,2 +1,17 @@
-Hello World
-Hello World 2
+$ mkdir git-lesson2 && cd_
+
+$ git init
+
+$ echo "Hello World" >> first.txt
+
+$ git add first.txt
+
+$ git rm --cached first.txt
+
+$ git add .
+
+$ git commit -m "Bibliothek repisotory"
+
+$ git remote add origin https://github.com/rincemath/git-lesson2.git
+
+$ git push -u origin master
